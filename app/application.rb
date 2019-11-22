@@ -19,7 +19,7 @@ class Application
         resp.write "Your cart is empty"
       else
         @@cart.each do |t|
-          
+          resp.write "t"
         end
     else
       resp.write "Path Not Found"
