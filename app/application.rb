@@ -21,6 +21,7 @@ class Application
         @@cart.each do |t|
           resp.write "#{t}\n"
         end
+      end
     else
       resp.write "Path Not Found"
     end
